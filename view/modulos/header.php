@@ -1,7 +1,7 @@
 <div class="container-nav">
     <div class="nav-flex">
         <div class="nav-logo">
-            <a href="#"><h1>Logo o Nombre</h1></a>
+            <a href="#"><h1>Confecciones Vasquez</h1></a>
         </div>
         <div class="nav-secciones">
             <div class="secciones-container">
