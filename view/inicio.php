@@ -33,7 +33,7 @@
     <!-- CSS -->
     <?php require_once "links/css.php"; ?>
     <!-- JAVA SCRIPT -->
-    
+    <?php require_once "links/jsh.php"; ?>
 </head>
 <body>
 
@@ -72,6 +72,6 @@
     ?>
 
     <?php include "modulos/footer.php"; ?>
-    <?php require_once "links/js.php"; ?>
+    <?php require_once "links/jsf.php"; ?>
 </body>
 </html>

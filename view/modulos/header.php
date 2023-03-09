@@ -1,39 +1,46 @@
 <div class="container-nav">
     <div class="nav-flex">
-        <div class="nav-logo">
-            <a href="#"><h1>Confecciones Vasquez</h1></a>
-        </div>
-        <div class="nav-secciones">
-            <div class="secciones-container">
-                <div class="nav-categorias">
-                    <p class="categoria-title">CATEGORIAS</p>
-                    <div class="nav-categorias-items">
-                        <div class="nav-triangulo"></div>
-                        <div class="navc-items">
-                            <ul class="navc-items-ul">
-                                <a href="bolsos"><li class="navc-items-li">Bolsos</li></a>
-                                <a href="carteras"><li class="navc-items-li">Carteras</li></a>
-                                <a href="mochilas"><li class="navc-items-li">Mochilas</li></a>
-                                <a href="morrales"><li class="navc-items-li">Morrales</li></a>
-                            </ul>
+        <div class="nav-content-logo-secciones">
+            <div class="nav-menu">
+                <img src="<?php echo SERVERURL . 'view/assets/img/svg/menu.svg' ?>" alt="">
+            </div>
+            <div class="nav-logo">
+                <a href="#" class="nav-logo-a">
+                    <h1 class="nav-logo-h1">Confecciones Vasquez</h1>
+                </a>
+            </div>
+            <div class="nav-secciones">
+                <div class="secciones-container">
+                    <div class="nav-categorias">
+                        <p class="categoria-title">CATEGORIAS</p>
+                        <div class="nav-categorias-items">
+                            <div class="nav-triangulo"></div>
+                            <div class="navc-items">
+                                <ul class="navc-items-ul">
+                                    <a href="bolsos"><li class="navc-items-li">Bolsos</li></a>
+                                    <a href="carteras"><li class="navc-items-li">Carteras</li></a>
+                                    <a href="mochilas"><li class="navc-items-li">Mochilas</li></a>
+                                    <a href="morrales"><li class="navc-items-li">Morrales</li></a>
+                                </ul>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="nav-informacion">
-                    <p class="informacion-title">INFORMACIÓN</p>
-                    <div class="nav-informacion-items">
-                        <div class="nav-triangulo"></div>
-                        <div class="navi-items">
-                            <ul class="navi-items-ul">
-                                <a href="quienessomos"><li class="navi-items-li">Quienes somos</li></a>
-                                <a href="contacto"><li class="navi-items-li">Contacto</li></a>
-                            </ul>
+                    <div class="nav-informacion">
+                        <p class="informacion-title">INFORMACIÓN</p>
+                        <div class="nav-informacion-items">
+                            <div class="nav-triangulo"></div>
+                            <div class="navi-items">
+                                <ul class="navi-items-ul">
+                                    <a href="quienessomos"><li class="navi-items-li">Quienes somos</li></a>
+                                    <a href="contacto"><li class="navi-items-li">Contacto</li></a>
+                                </ul>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="nav-buscar">
-                    <label class="nav-buscar-label" for="buscar-producto"></label>
-                    <input class="nav-buscar-input" type="text" name="buscar-producto" id="buscar-producto" placeholder="Buscar producto">
+                    <div class="nav-buscar">
+                        <label class="nav-buscar-label" for="buscar-producto"></label>
+                        <input class="nav-buscar-input" type="text" name="buscar-producto" id="buscar-producto" placeholder="Buscar producto">
+                    </div>
                 </div>
             </div>
         </div>
@@ -42,7 +49,7 @@
                 <div class="cantidad-bolsa">
                     <p>4</p>
                 </div>
-                <img class="nav-bolsa-img" src="../img/bolsa.svg" alt="bolsa de compras">
+                <img class="nav-bolsa-img" src="<?php echo SERVERURL . 'view/assets/img/svg/bolsa.svg' ?>" alt="bolsa de compras">
                 <div class="nav-bolsa-items">
                     <div class="nav-triangulo"></div>
                     <div class="navb-items">
@@ -204,7 +211,7 @@
                 </div>
             </div>
             <div class="nav-usuario">
-                <img class="nav-usuario-img" src="../img/user.svg" alt="usuario">
+                <img class="nav-usuario-img" src="<?php echo SERVERURL . 'view/assets/img/svg/user.svg' ?>" alt="usuario">
                 <div class="nav-usuario-items">
                     <div class="nav-triangulo"></div>
                     <div class="navi-items">

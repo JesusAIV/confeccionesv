@@ -6,9 +6,7 @@
     box-sizing: border-box;
     font-family: 'Aleo', serif;
 }
-
 /* Globales */
-
 a{
     text-decoration: none;
 }
@@ -16,10 +14,8 @@ ul, ol, li{
     text-decoration: none;
     list-style: none;
 }
-
 /* Fin Globales */
 /* ------------ */
-
 
 /* Cabecera */
 .container-nav{
@@ -40,6 +36,16 @@ ul, ol, li{
 }
 .nav-secciones{
     width: 60%;
+}
+.nav-content-logo-secciones{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    flex-direction: inherit;
+}
+.nav-menu{
+    display: none;
 }
 .secciones-container{
     display: flex;
@@ -265,10 +271,46 @@ ul, ol, li{
 .nav-usuario-img:hover ~ .nav-usuario-items{
     display: block;
 }
-
 /* Fin Cabecera */
 /* ------------ */
-
+@media (max-width: 1200px){
+    .nav-logo-h1{
+        font-size: 20px;
+    }
+    .categoria-title,
+    .informacion-title{
+        font-size: 13px;
+    }
+    .nav-bolsa-img,
+    .nav-usuario-img{
+        width: 80%;
+    }
+    .cantidad-bolsa{
+        width: 20px;
+        height: 20px;
+    }
+    .cantidad-bolsa p{
+        font-size: 10px;
+    }
+    .nav-buscar{
+        width: 20%;
+    }
+    .nav-buscar-input{
+        font-size: 10px;
+    }
+}
+@media (max-width: 992px){
+    .nav-secciones{
+        display: none;
+    }
+    .nav-menu{
+        display: flex;
+    }
+    .nav-content-logo-secciones{
+        justify-content: initial;
+        gap: 10px;
+    }
+}
 /* Seccion principal */
 .main{
     margin-top: 100px;
