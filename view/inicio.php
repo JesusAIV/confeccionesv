@@ -9,8 +9,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Confecciones Vasquez es una tienda virtual encargada de confecionar y vender carteras al por mayor y menor, realizadas con cuero y tela de buena calidad, para el buen servicio de los clientes la tienda está en uso las 24 horas los 7 días de la semana para poder realizar compras online de manera segura.">
-    <meta name="keywords" content="HTML, CSS, JavaScript, PHP">
+    <meta name="keywords" content="carteras,bolsos,mochilas,morrales">
+    <meta name="Resource-type" content="Catalog">
     <meta name="author" content="Jesús Isique Vásquez">
+    <meta name="copyright" content="Confecciones Vasquez">
+    <meta name="robots" content="index, follow">
     <title>
         <?php
             if(empty($_GET['views'])){
