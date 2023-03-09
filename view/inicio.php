@@ -8,11 +8,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Confecciones Milagros es una tienda de confeción y venta de carteras al por mayor y menor">
+    <meta name="description" content="Confecciones Vasquez es una tienda de confeción y venta de carteras al por mayor y menor">
     <title>
         <?php
             if(empty($_GET['views'])){
-                $NomTitle = "Confecciones Milagros";
+                $NomTitle = "Confecciones Vasquez";
                 echo $NomTitle;
             } else {
                 $text = $_GET['views'];
@@ -31,6 +31,7 @@
     <!-- FAVICON -->
     <link rel="shortcut icon" href="<?php echo SERVERURL ?>view/img/jpg/bolso.ico" type="image/x-icon">
     <!-- CSS -->
+    <?php require_once "links/css.php"; ?>
     <!-- JAVA SCRIPT -->
 </head>
 <body>
