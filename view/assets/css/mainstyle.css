@@ -276,5 +276,8 @@ ul, ol, li{
 .swiper {
     height: 300px;
 }
+.img-slider{
+    width: 100vw;
+}
 /* Fin Seccion principal */
 /* ------------ */
