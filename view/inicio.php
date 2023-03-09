@@ -8,11 +8,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Confecciones Vasquez es una tienda de confeción y venta de carteras al por mayor y menor">
+    <meta name="description" content="Confecciones Vasquez es una tienda virtual encargada de confecionar y vender carteras al por mayor y menor, realizadas con cuero y tela de buena calidad, para el buen servicio de los clientes la tienda está en uso las 24 horas los 7 días de la semana para poder realizar compras online de manera segura.">
+    <meta name="keywords" content="HTML, CSS, JavaScript, PHP">
+    <meta name="author" content="Jesús Isique Vásquez">
     <title>
         <?php
             if(empty($_GET['views'])){
-                $NomTitle = "Confecciones Vasquez";
+                $NomTitle = "Confecciones Vasquez - Tienda de carteras";
                 echo $NomTitle;
             } else {
                 $text = $_GET['views'];
