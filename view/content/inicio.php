@@ -1,5 +1,5 @@
 <!-- Inicio Slider -->
-<div class="slider">
+<div class="slider slider-main">
     <div class="slider-wrapper">
         <div class="slider-slide">
             <img class="img-slider" src="<?php echo SERVERURL . 'view/assets/img/slider/Banner_hello_kitty.jpg' ?>" alt="">
@@ -75,3 +75,42 @@
     </div>
 </div>
 <!-- Fin Seccion Categorias -->
+
+<!-- Inicio Agregados Recientemente -->
+<div class="section-add-recientes">
+    <div class="categorias-titulo">
+        <h2>Agregados recientemente</h2>
+    </div>
+    <div class="slider slider-productos">
+        <div class="slider-wrapper">
+            <div class="slider-slide">
+                <img class="img-slider-prod-add" src="<?php echo SERVERURL . 'view/assets/img/addreciente/1484-2067847-430x491.jpg' ?>" alt="">
+            </div>
+            <div class="slider-slide">
+                <img class="img-slider-prod-add" src="<?php echo SERVERURL . 'view/assets/img/addreciente/1484-2067848-430x491.jpg' ?>" alt="">
+            </div>
+            <div class="slider-slide">
+                <img class="img-slider-prod-add" src="<?php echo SERVERURL . 'view/assets/img/addreciente/1484-2067849-430x491.jpg' ?>" alt="">
+            </div>
+            <div class="slider-slide">
+                <img class="img-slider-prod-add" src="<?php echo SERVERURL . 'view/assets/img/addreciente/1484-2067850-430x491.jpg' ?>" alt="">
+            </div>
+            <div class="slider-slide">
+                <img class="img-slider-prod-add" src="<?php echo SERVERURL . 'view/assets/img/addreciente/1484-2067847-430x491.jpg' ?>" alt="">
+            </div>
+            <div class="slider-slide">
+                <img class="img-slider-prod-add" src="<?php echo SERVERURL . 'view/assets/img/addreciente/1484-2067848-430x491.jpg' ?>" alt="">
+            </div>
+            <div class="slider-slide">
+                <img class="img-slider-prod-add" src="<?php echo SERVERURL . 'view/assets/img/addreciente/1484-2067849-430x491.jpg' ?>" alt="">
+            </div>
+            <div class="slider-slide">
+                <img class="img-slider-prod-add" src="<?php echo SERVERURL . 'view/assets/img/addreciente/1484-2067850-430x491.jpg' ?>" alt="">
+            </div>
+        </div>
+        <div class="slider-pagination"></div>
+        <div class="slider-button-prev"></div>
+        <div class="slider-button-next"></div>
+    </div>
+</div>
+<!-- Fin Agregados Recientemente -->
