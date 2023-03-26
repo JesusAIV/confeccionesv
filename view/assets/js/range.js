@@ -1,8 +1,8 @@
-let inputLeft = document.getElementById('input-left');
-let inputRight = document.getElementById('input-right');
-let range = document.querySelector('.slider-range > .range');
-let priceFrom = document.querySelector('.price-from');
-let priceTo = document.querySelector('.price-to');
+let inputLeft = document.querySelector('input-left');
+let inputRight = document.querySelector('input-right');
+let range = document.querySelectorAll('.slider-range > .range');
+let priceFrom = document.querySelectorAll('.price-from');
+let priceTo = document.querySelectorAll('.price-to');
 
 function setLeftValue() {
     let _this = inputLeft,
